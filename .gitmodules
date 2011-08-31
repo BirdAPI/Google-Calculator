@@ -1,0 +1,3 @@
+[submodule "Google"]
+	path = Google
+	url = git@github.com:BirdAPI/Google-Search-API.git
