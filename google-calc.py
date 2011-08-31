@@ -10,10 +10,10 @@ def main():
     prev = None
     print "Enter an expression, or 'q' to exit.\n"
     while True:
-        string = raw_input()
-        if string == "quit" or string == "q" or string == "exit":
+        input = raw_input()
+        if input == "quit" or input == "q" or input == "exit":
             break
-        result = Google.calculate(string)
+        result = Google.calculate(input)
         if result:
             print "=", result.value, result.unit if result.unit else ""
         else:
